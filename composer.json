@@ -2,7 +2,7 @@
     "name": "minh/timezones",
     "description": "Demo pakage to show time",
     "type": "plugin",
-    "license": "DEV",
+    "license": "1.0",
     "authors": [
         {
             "name": "minh",
