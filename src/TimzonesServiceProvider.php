@@ -16,7 +16,7 @@ class TimzonesServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'timezones');
         $this->publishes([
             __DIR__ . '/migrations' => $this->app->databasePath() . '/migrations'
-        ], 
+        ], 'migrations');
 
         $this->publishes([
 
