@@ -12,11 +12,12 @@
     "minimum-stability": "dev",
     "require": {
     },
-     "autoload": {
-         
-        "psr-4": {
-            "Minh\\Timezones\\": "vendor/minh/timezones/",
 
+    "autoload": {
+      
+        "psr-4": {
+        
+            "Minh\\Timezones\\": "vendor/minh/timezones/"
         }
     },
   }
