@@ -13,14 +13,17 @@ class TimzonesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/views', 'timezones');
+         $this->loadViewsFrom(__DIR__ . '/views', 'timezones');
+
         $this->publishes([
 
             __DIR__ . '/views' => base_path('resources/views/timezones')], 'views');
+
+
+
         if (!$this->app->routesAreCached()) {
             require __DIR__ . '/routes.php';
         }
-
         //
 
     }
